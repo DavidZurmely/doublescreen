@@ -1,0 +1,33 @@
+{
+  "name": "doublescreen",
+  "version": "0.0.1",
+  "description": "Dossier de test",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodejs index.js"
+  },
+  "author": "Davd Zurmely",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "express": "^4.16.3",
+    "jwt-simple": "^0.5.5",
+    "socket.io": "^2.1.1"
+  },
+  "devDependencies": {
+    "morgan": "^1.9.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidZurmely/doublescreen.git"
+  },
+  "keywords": [
+    "TV",
+    "video",
+    "mobile",
+    "desktop"
+  ],
+  "bugs": {
+    "url": "https://github.com/DavidZurmely/doublescreen/issues"
+  },
+  "homepage": "https://github.com/DavidZurmely/doublescreen#readme"
+}

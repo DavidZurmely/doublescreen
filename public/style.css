@@ -1,0 +1,150 @@
+body {
+  margin:0;
+  padding:0;
+  font-family: Open Sans, sans-serif;
+  width: 100vw;
+  height: 100vh;
+  /* overflow:hidden; */
+  background-color: black;
+}
+
+html{
+  font-size:100%;
+}
+
+body{
+  font-size: 1.6rem;
+}
+
+form.login {
+  background-color: rgba(255,255,255,0.8);
+  margin: 0 auto;
+  height: 5rem;
+  width: 20rem;
+  position:relative;
+  top: 50%;
+  padding:1rem;
+  border-radius: 0.5rem;
+  font-size: 1.2rem;
+
+}
+#enterCode {
+	width: 17rem;
+  height: 2rem;
+	padding: 0 0.5rem;
+	border: 1px solid #C5C5C5;
+	border-radius: 0.2rem;
+  font-size: inherit;
+}
+
+form.login input[type=submit] {
+	position: relative;
+	/* left: 0.5rem; */
+  height:2rem;
+	width: 2rem;
+  margin-left: 0.5rem;
+  vertical-align: bottom;
+	text-align: center;
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+	font-weight: bold;
+  font-size: inherit;
+	border: none;
+	border-radius: 0.2rem;
+	background-color: #5a93bb;
+	color: #fff;
+}
+
+#generateButton{
+  position: relative;
+  width: 20rem;
+  height: 2rem;
+  margin-top: 0.5rem;
+  padding: 0 0.5rem;
+  border: 1px solid #C5C5C5;
+  border-radius: 0.2rem;
+  background-color: #5a93bb;
+  color: #fff;
+  font-size: inherit;
+}
+
+.message {
+  color:white;
+
+  margin : 0 auto;
+  width: 50vw;
+}
+
+.message span.instructions{
+  font-size:1rem;
+  display:block;
+  position: relative;
+  text-align: center;
+}
+
+.message span.important{
+  font-size:2rem;
+  display:block;
+  position: relative;
+  text-align: center;
+}
+
+.master{
+  display:none;
+  color:white;
+  width:100vw;
+  height:100vh;
+  top: 0;
+  position: absolute;
+
+}
+
+.slave{
+  display:none;
+  color:white;
+  width:100vw;
+  height:80vh;
+  top: 0;
+  position: absolute;
+}
+
+.slave .controls{
+  height:5rem;
+  width:100%;
+  position:fixed;
+  bottom:0;
+  background-color: #0b0b0b;
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.controls i{
+  font-size:5rem;
+  display:block;
+  width: 5rem;
+  cursor:pointer;
+
+}
+
+.play:before{
+  content: '\f144';
+  width:5rem;
+  display: block;
+}
+
+.pause:before{
+  content: '\f28b';
+  width:5rem;
+  display: block;
+}
+
+.description{
+  padding:2rem;
+  padding-bottom: 10rem;
+}
+
+.fullsizeImage{
+  margin: 0 auto;
+  display: block;
+  height:80%;
+}
