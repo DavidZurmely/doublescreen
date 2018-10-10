@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "nodejs index.js",
-    "start": "nodejs index.js",
+    "start": "nodejs index.js"
   },
   "author": "Davd Zurmely",
   "license": "GPL-3.0",
