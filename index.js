@@ -21,6 +21,8 @@ var secret = Buffer.from('thisisdoublescreenapp', 'hex');
 
 // Make the files in the public folder available to the world
 app.use(express.static(__dirname + '/public'));
+app.use('/reveal/', express.static(__dirname + '/node_modules/reveal/'));
+
 
 var presentation = io.on('connection', function (socket) {
 
