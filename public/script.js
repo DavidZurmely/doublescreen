@@ -3,6 +3,10 @@ $(function(){
     Cookies.remove('token');
     Cookies.remove('role');
   }
+  
+  Reveal.initialize({
+		history: true		// Every slide will change the URL
+	});
 
   var socket = io();
   var room = Date.now().toString();
